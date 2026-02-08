@@ -40,7 +40,7 @@ function Giftes() {
 
       {/* Opened Gift */}
       {selectedGift && (
-        <div className={`text-center h-[100%]  w-[100%] flex flex-col items-center justify-center bg-[url('${selectedGift.bg}')] bg-cover   rounded-xl`}>
+        <div className={`text-center lg:h-[50vh]  h-[50vh]  lg:w-[70vh] w-[60vh] flex flex-col items-center justify-center bg-[url('imag.png')] bg-cover   rounded-xl`}>
           <p className="text-3xl mb-4"></p>
           <p className="text-2xl font-bold text-pink-500">
             {selectedGift.message}
