@@ -40,7 +40,7 @@ function Giftes() {
 
       {/* Opened Gift */}
       {selectedGift && (
-        <div className={`text-center lg:h-[50vh]  h-[50vh]  lg:w-[70vh] w-[60vh] flex flex-col items-center justify-center bg-[url('imag.png')] bg-cover   rounded-xl`}>
+        <div className={`text-center lg:h-[50vh]  h-[50vh]  lg:w-[70vh] w-[60vh] flex flex-col items-center justify-center bg-[url('https://png.pngtree.com/background/20210715/original/pngtree-love-paper-cut-couple-plant-cloud-valentine-background-picture-image_1310876.jpg')] bg-cover   rounded-xl`}>
           <p className="text-3xl mb-4"></p>
           <p className="text-2xl font-bold text-pink-500">
             {selectedGift.message}
